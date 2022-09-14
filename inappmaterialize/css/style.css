@@ -1,0 +1,30 @@
+.nav-wrapper{
+    background-color: rgb(9, 9, 109);
+}
+
+.card{
+    height: 500px;
+}
+
+#logoimg{
+    width: 65px;
+    height: auto;
+    margin-top: 7px;
+}
+
+.background img{
+    width: 100%;
+    height: 100%;
+}
+
+.row{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.card-title{
+    background-color: rgb(153, 140, 129);
+    width:100%;
+    opacity: 80%;
+}
+

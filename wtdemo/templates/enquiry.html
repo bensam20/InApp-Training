@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+    <html>
+        <body>
+            <div>
+                <h1>Hello, {% if name %}{{ name }}{% else %}Guest{% endif %}!</h1>
+            </div>
+            <form method="post" enctype="multipart/form-data">
+                {{form.hidden_tag()}}
+                {{form.name.label}} {{form.name()}}
+                {{form.filename()}}
+                {{form.submit()}}
+            </form>
+        </body>
+    </html>

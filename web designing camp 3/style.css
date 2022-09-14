@@ -1,0 +1,72 @@
+p{
+    color:blue
+}
+h1{
+    color: red;
+}
+
+/*Universal selector*/
+/* *{
+    color: green;
+} */
+
+h3{
+    width: 120px;
+    height: 30px;
+    padding: 20px;
+    margin: 30px;
+    border: 2px solid;
+    color: red;
+}
+
+/*class selector*/
+.splclass{
+    color: gold;
+}
+
+/*id selector*/
+#splid {
+    color: brown;
+}
+
+/*Attribute selector*/
+input[type="button"]{
+    color: white;
+    background-color: blueviolet;
+    width: 20%;
+}
+
+/*group class selectors*/
+p,h1{
+    color: gray;
+}
+
+/*pseudoclass selectors*/
+a:hover{
+    outline: dotted 2px green;
+}
+
+/*pseuso element selector*/
+p::first-letter{
+    color: green;
+    font-weight: bold;
+    font-size: 20px;
+}
+ 
+#navigation1{
+    float: left;
+    width: 200px;
+}
+
+#navigation2{
+    float: right;
+    width: 200px;
+}
+
+#content {
+    /*top right bottom left*/
+    margin: 0px 200px 0px 200px;
+}
+
+
+

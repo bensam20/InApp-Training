@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="css/style.css"  media="screen,projection"/>
+    <link rel="stylesheet" href="css/signup.css">
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Welcome Page</title>
+</head>
+
+<body>
+
+    <nav>
+        <ul id="slide-out" class="sidenav">
+            <li><div class="user-view">
+              <div class="background">
+                <img src="images/icon.jpg">
+              </div>
+              <span><br><br></span>
+              <span class="white-text name">Material Design</span>
+              <span class="white-text email">Inspired by Material Design</span>
+            </div></li>
+            
+            <li><a href="index.html"><i class="material-icons">home</i>Home</a></li>
+            <li><div class="divider"></div></li>
+            <li><a href="#!"><i class="material-icons">stars</i>Showcase</a></li>
+            <li><div class="divider"></div></li>
+            <li><a href="#!"><i class="material-icons">handyman</i>Tools & Resources</a></li>
+            <li><div class="divider"></div></li>
+            <li><a href="#!"><i class="material-icons">wysiwyg</i>Themes & Templates</a></li>
+            <li><div class="divider"></div></li>
+            <li><a href="#!"><i class="material-icons">palette</i>Mockups & Concepts</a></li>
+            <li><div class="divider"></div></li>
+            <li><a href="#!"><i class="material-icons">apps</i>Apps</a></li>
+            <li><div class="divider"></div></li>
+            <li><a href="#!"><i class="material-icons">sync</i>WordPress</a></li>
+        </ul>
+        <a href="#" data-target="slide-out" class="sidenav-trigger show-on-large"><i class="material-icons">menu</i></a>
+
+        <div class="nav-wrapper">
+          <a href="index.html" class="brand-logo center"><img id="logoimg" src="images/icon.jpg"></a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger right"><i class="material-icons">login</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="login.html">LOGIN</a></li>
+            <li><a href="signup.html">SIGN UP</a></li>
+          </ul>
+        </div>
+    </nav>
+
+    <div id="formholder">
+        <h1>LOGIN</h1>
+        <div class="field">
+            <input type="text" placeholder="e-mail" id="fname">
+            <p id="fname_error"></p>
+        </div>
+        
+        <div class="field">
+            <input type="password" placeholder="Password" id="password">
+            <p id="password_error"></p>
+        </div>
+        
+        <input type="button" value="Register" id="register" onclick="validate()">
+    </div>
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/myjs.js"></script>
+</body>
+</html>
